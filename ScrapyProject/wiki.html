@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<meta name="generator" content="MediaWiki 1.13.2" />
+		<meta name="keywords" content="examples,IRC,Main Page,blog-post-examples,examples-examples,examples-template,formats,media-info-examples,process,review-examples" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/wiki/opensearch_desc.php" title="Microformats Wiki (en)" />
+		<link rel="alternate" type="application/rss+xml" title="Microformats Wiki RSS Feed" href="http://microformats.org/wiki/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="Microformats Wiki Atom Feed" href="http://microformats.org/wiki/index.php?title=Special:RecentChanges&amp;feed=atom" />
+	<link rel="stylesheet" type="text/css" href="/wiki/skins/common/shared.css" />		
+	<link rel="stylesheet" type="text/css" href="/wiki/skins/Microformats/microformats.css"/>
+
+	<style type="text/css">/*<![CDATA[*/
+@import "/wiki/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/wiki/index.php?title=MediaWiki:Microformats_Wiki.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/wiki/index.php?title=-&action=raw&gen=css&maxage=18000&useskin=Microformats+Wiki";
+/*]]>*/</style>
+<script type= "text/javascript">/*<![CDATA[*/
+var skin = "Microformats Wiki";
+var stylepath = "/wiki/skins";
+var wgArticlePath = "/wiki/$1";
+var wgScriptPath = "/wiki";
+var wgScript = "/wiki/index.php";
+var wgVariantArticlePath = false;
+var wgActionPaths = [];
+var wgServer = "http://microformats.org";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "examples";
+var wgTitle = "examples";
+var wgAction = "view";
+var wgArticleId = "1173";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "64070";
+var wgVersion = "1.13.2";
+var wgEnableAPI = true;
+var wgEnableWriteAPI = false;
+var wgRestrictionEdit = [];
+var wgRestrictionMove = ["sysop"];
+/*]]>*/</script>
+
+    <script type="text/javascript" src="/wiki/skins/common/wikibits.js?164"></script>
+    		<script type="text/javascript" src="/wiki/skins/common/ajax.js?164"></script>
+        <script type="text/javascript" src="/wiki/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=Microformats+Wiki"><!-- site js --></script>
+        	
+	<title>Best Practices for Examples Pages &middot; Microformats Wiki</title>
+	
+</head>
+	<!-- TODO: Template-dervied body class: spec and draft -->
+<body class="page-examples ">
+    
+    <div class="header">
+            <a class="logo" href="/wiki/Main_Page">
+                <img src="/wiki/skins/Microformats/images/logo.gif" alt="Microformats Wiki"/>
+            </a>
+        
+        <ul class="nav">
+            <li><a href="/" title="Microformats.org Home">Blog</a></li>
+            <li class="active"><span>Wiki</span></li>
+            <li><a href="/discuss" title="Microformats discussion lists">Discuss</a></li>
+        </ul>
+        
+        <form action="/wiki/Special:Search" id="search">
+            <fieldset>
+            <label for="search-text">Search</label>
+    	    <input id="search-text" name="search" type="text" title="Search Microformats Wiki [f]" accesskey="f" value="" />
+	        <input type="submit" name="go" class="searchButton" id="searchGoButton"	value="Go" title="Go to a page with this exact name if exists" /> 
+	        <input type="submit" name="fulltext" class="searchButton" id="mw-searchButton" value="Search" title="Search the pages for this text" />
+	        </fieldset>
+		</form>
+    </div>
+
+    <div class="content hentry">
+    
+	
+
+	    <h1 class="entry-title">Best Practices for Examples Pages</h1>
+
+		<p class="sub-title"></p>
+
+								    <!-- TODO: Jump nav -->
+		    <div id="jump-to-nav">Jump to:		        <a href="#sidebar">navigation</a>, 
+		        <a href="#search">search</a>
+		    </div>
+		        
+        <div class="entry-content">
+		<p><br />
+<b>*-examples</b> pages are the first stage of the exploration <a href="/wiki/process" title="process">process</a> which must precede proposing a new microformat. Current <a href="/wiki/Main_Page#Exploratory_Discussions" title="Main Page">explorations</a> are listed on the <a href="/wiki/Main_Page" title="Main Page">Main Page</a>.   You can use the <a href="/wiki/examples-template" title="examples-template">examples-template</a> to help you create your own page.
+</p>
+<table id="toc" class="toc" summary="Contents"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1"><a href="#Current_Human_Behavior_on_the_Web"><span class="tocnumber">1</span> <span class="toctext">Current Human Behavior on the Web</span></a></li>
+<li class="toclevel-1"><a href="#Template_of_recommended_sections"><span class="tocnumber">2</span> <span class="toctext">Template of recommended sections</span></a>
+<ul>
+<li class="toclevel-2"><a href="#real_world_examples_section"><span class="tocnumber">2.1</span> <span class="toctext">real world examples section</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#Good_Examples_of_Examples"><span class="tocnumber">3</span> <span class="toctext">Good Examples of Examples</span></a></li>
+<li class="toclevel-1"><a href="#A_Good_Example_Has"><span class="tocnumber">4</span> <span class="toctext">A Good Example Has</span></a></li>
+<li class="toclevel-1"><a href="#When_Adding_Examples"><span class="tocnumber">5</span> <span class="toctext">When Adding Examples</span></a></li>
+<li class="toclevel-1"><a href="#Purpose_of_Example_Pages"><span class="tocnumber">6</span> <span class="toctext">Purpose of Example Pages</span></a></li>
+<li class="toclevel-1"><a href="#What_kind_of_examples_and_why"><span class="tocnumber">7</span> <span class="toctext">What kind of examples and why</span></a>
+<ul>
+<li class="toclevel-2"><a href="#Current"><span class="tocnumber">7.1</span> <span class="toctext">Current</span></a></li>
+<li class="toclevel-2"><a href="#Human"><span class="tocnumber">7.2</span> <span class="toctext">Human</span></a></li>
+<li class="toclevel-2"><a href="#Behavior"><span class="tocnumber">7.3</span> <span class="toctext">Behavior</span></a></li>
+<li class="toclevel-2"><a href="#Web"><span class="tocnumber">7.4</span> <span class="toctext">Web</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1"><a href="#See_also"><span class="tocnumber">8</span> <span class="toctext">See also</span></a></li>
+</ul>
+</td></tr></table><script type="text/javascript"> if (window.showTocToggle) { var tocShowText = "show"; var tocHideText = "hide"; showTocToggle(); } </script>
+<a name="Current_Human_Behavior_on_the_Web"></a><h2> <span class="mw-headline"> Current Human Behavior on the Web </span></h2>
+<p>Examples for the development of a microformat <em title="MUST in &#82;FC 2119 context" style="text-transform: lowercase; font-style: italic;" class="&#82;FC2119">MUST</em> reflect:
+</p>
+<ul><li> <a href="#Current" title="">Current</a>
+</li><li> <a href="#Human" title="">Human</a>
+</li><li> <a href="#Behavior" title="">Behavior</a>
+</li><li> on the <a href="#Web" title="">Web</a>
+</li></ul>
+<p>See each of those sections in the reference at the end for what we mean by those and why.
+</p>
+<a name="Template_of_recommended_sections"></a><h2> <span class="mw-headline"> Template of recommended sections </span></h2>
+<p>A good *-examples page has the <span id="Recommended_sections">following sections</span>, you can think of this like a template:
+</p><p>Top level (&lt;entry-title&gt;):
+</p>
+<ul><li> Introductory sentence
+</li></ul>
+<p>The following items can be used as second level headings == ... == 
+</p>
+<ul><li> purpose
+<ul><li> <i>What is the purpose of this exploration?</i>
+</li><li> <i>What real world problem(s) / user-scenarios are being solved?</i>
+</li></ul>
+</li><li> real world examples
+<ul><li> <i>Links to public web pages, either popular or insightful</i>
+</li></ul>
+</li><li> analysis of publishing practices
+<ul><li> <i>Summary and analysis of common patterns discovered from above examples</i>
+</li><li> <i>Other attempts to solve The Problem</i> (other actual <a href="/wiki/formats" title="formats">formats</a> belong in the *-formats page)
+</li></ul>
+</li><li> see also
+<ul><li> <i>Link to related pages as they become available</i>
+</li></ul>
+</li><li> next steps
+<ul><li> *-formats
+</li><li> *-brainstorming
+</li></ul>
+</li></ul>
+<p>Details on specific sections:
+</p>
+<a name="real_world_examples_section"></a><h3> <span class="mw-headline"> real world examples section </span></h3>
+<ul><li> <b>Flat list at a minimum.</b> The real world examples section should be at a minimum a flat list of examples.  See further down for what a good example has.
+</li><li> <b>Grouping into categories can help.</b> A giant flat list of examples can sometimes be difficult to navigate and analyze as a whole. Consider grouping related examples into a flat list of categories.  If you're not sure how to categorize the examples, or if there are multiple axes across which you could categorize the examples, ask on the <a href="/wiki/IRC" class="mw-redirect" title="IRC">IRC</a> channel or <a href="http://microformats.org/discuss" class="external text" title="http://microformats.org/discuss" rel="nofollow">mailing list</a>.
+</li></ul>
+<a name="Good_Examples_of_Examples"></a><h2> <span class="mw-headline"> Good Examples of Examples </span></h2>
+<p>The following pages are some of the best examples of instantiating this design pattern:
+</p>
+<ul><li> <a href="/wiki/review-examples" title="review-examples">review-examples</a>
+</li><li> <a href="/wiki/media-info-examples" title="media-info-examples">media-info-examples</a>
+</li><li> <a href="/wiki/blog-post-examples" title="blog-post-examples">blog-post-examples</a>
+</li></ul>
+<a name="A_Good_Example_Has"></a><h2> <span class="mw-headline"> A Good Example Has </span></h2>
+<p>A good example has several things:
+</p>
+<ul><li> URL to the actual example on the Web
+</li><li> Link text of that hyperlink should look like a citation of that example, e.g. who, what site
+</li><li> Perhaps an illustrative snippet of code (markup) from the example
+</li><li> Analysis of the implied schema represented by that snippet, with at a minimum a flat list of the "fields" present in the example snippet.
+</li></ul>
+<a name="When_Adding_Examples"></a><h2> <span class="mw-headline"> When Adding Examples </span></h2>
+<p>When adding examples to an existing *-examples page, please try to add the examples into the existing organizational structure in the page.  E.g. if the examples are grouped or categorized in a certain way, try to add new examples into those existing categories, instead of a new section.  
+</p><p>If you have to add a new category or subsection, do so, but try to do so in harmony with existing categories.  If it is not obvious how to do so, or if the categories don't seem to make sense, then it might be a good time to ask a question on the <a href="/wiki/IRC" class="mw-redirect" title="IRC">IRC</a> channel or <a href="http://microformats.org/discuss" class="external text" title="http://microformats.org/discuss" rel="nofollow">mailing list</a>.
+</p>
+<a name="Purpose_of_Example_Pages"></a><h2> <span class="mw-headline"> Purpose of Example Pages </span></h2>
+<p>(adapted from <a href="/wiki/process" title="process">process</a>)
+</p><p>Document current human behavior on the Web. Remember, we're <a href="http://ifindkarma.typepad.com/relax/2004/12/microformats.html" class="external text" title="http://ifindkarma.typepad.com/relax/2004/12/microformats.html" rel="nofollow">paving the cowpaths</a>- before you do that you have to <i>find</i> the cowpaths. Your documentation should be a collection of real world sites and pages which are publishing the kind of data you wish to structure with a microformat.  From those pages and sites, you should extract markup examples and the schemas implied therein, and provide analysis.
+</p>
+<a name="What_kind_of_examples_and_why"></a><h2> <span class="mw-headline"> What kind of examples and why </span></h2>
+<p>By current human behavior on the web, we mean:
+</p>
+<a name="Current"></a><h3> <span class="mw-headline"> Current </span></h3>
+<ul><li> This is what people are doing <b>now</b> on the Web.   
+</li><li> This is not:
+<ul><li> what people did 50 years ago
+</li><li> what you expect people to do in the future
+</li></ul>
+</li></ul>
+<a name="Human"></a><h3> <span class="mw-headline"> Human </span></h3>
+<p>Explicit user entered and published information.  While automatically published information such as logs from an eletronic thermometer can be interesting, they are not human produced (unless said thermometer is stuck in a human, and that's only indirect/implicit/uncontrolled) and thus do not reflect what humans themselves explicitly do.
+</p>
+<a name="Behavior"></a><h3> <span class="mw-headline"> Behavior </span></h3>
+<ul><li> What people actually <b>do</b>. Think empirical evidence, much as in the same way that the scientific method requires gathering of empirical data.
+</li><li> not:
+<ul><li> what they <i>might</i> do
+</li><li> <i>should have</i> done
+</li><li> <i>would</i> do
+</li><li> Intention/Desire/Want. A common mistake done by folks researching background for formats is to explicitly *ask* folks what they *want* or *prefer*, as opposed to *studying* what they *do*.  It is well known among behavioral researchers/surveyors that *asking* people what they *want*, or even *asking* people what they *do*, will give you very different (and worse / less accurate) answers than actually *studying* what they *do* in the real world.
+</li><li> Formats. Formats are prescriptions for behavior, not behavior itself.  For documenting formats, create a *-formats page.
+</li></ul>
+</li></ul>
+<a name="Web"></a><h3> <span class="mw-headline"> Web </span></h3>
+<ul><li> The examples MUST focus on examples actually published on the Web, at a publicly available URL, which should be documented along with the example itself on the wiki page.
+</li><li> Non-web examples are ok *only* for secondary/tertiary consideration, and by no means outweight (no matter what their quantity etc.) the Web examples.
+<ul><li> private files
+</li><li> paper
+</li><li> etc.
+</li></ul>
+</li></ul>
+<a name="See_also"></a><h2> <span class="mw-headline"> See also </span></h2>
+<ul><li> <a href="/wiki/examples-examples" title="examples-examples">examples-examples</a>
+</li></ul>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 21/1000000
+Post-expand include size: 133/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+<div class="printfooter">
+Retrieved from "<a href="http://microformats.org/wiki/examples">http://microformats.org/wiki/examples</a>"</div>
+		</div>	
+		
+				
+                    <div class="last-modified">
+                <a rel="bookmark" class="url uid" href="/wiki/index.php?title=examples&amp;oldid=64070">Best Practices for Examples Pages</a>
+                was last modified:
+                                <span class="updated">
+                    <span class="value-title" title="2013-11-01T22:44:00-0700"> </span>
+                    Friday, November 1st, 2013                </span>
+            </div>
+        
+        <div id="content-controls">
+    		<h2>Views</h2>
+    		<ul>
+                		    <li id="ca-viewsource"><a href="/wiki/index.php?title=examples&amp;action=edit" title="This page is protected.&#10;You can view its source. [e]" accesskey="e">View source</a></li>
+                		    <li id="ca-history"><a href="/wiki/index.php?title=examples&amp;action=history" title="Past versions of this page. [h]" accesskey="h">History</a></li>
+                		</ul>
+    	</div>
+
+	</div>
+	
+<div id="sidebar">
+
+
+	<div class="box" id="p-Microformats_Wiki">
+		<h3>Microformats Wiki</h3>
+		<ul class="box-inner">
+			<li id="n-Front-Page"><a href="/wiki/Main_Page">Front Page</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="The list of recent changes in the wiki. [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-Events"><a href="/wiki/Microformats_Wiki:Current_events">Events</a></li>
+			<li id="n-help"><a href="/wiki/Help:Contents" title="The place to find out.">Help</a></li>
+		</ul>
+	</div>
+	
+	
+	<div class="box" id="p-tb">
+		<h3>Toolbox</h3>
+		<ul class="box-inner">
+				<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/examples" title="List of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/examples" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="List of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/wiki/index.php?title=examples&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>				<li id="t-permalink"><a href="/wiki/index.php?title=examples&amp;oldid=64070" title="Permanent link to this version of the page">Permanent link</a></li>		</ul>
+	</div>
+
+
+
+	<div class="box" id="user-box">
+	    	    <h3>Hey! You're not logged in</h3>
+		<ul class="box-inner">
+        		    <li id="pt-login"><a href="/wiki/index.php?title=Special:UserLogin&amp;returnto=examples" title="You are encouraged to log in, it is not mandatory however. [o]" accesskey="o">Log in / create account</a></li>
+                
+        
+        
+		</ul>
+	</div>
+
+</div><!-- end of the sidebar -->
+
+<div id="footer">
+
+
+    <address class="vcard">
+        The content of this wiki is the combined effort of the
+        <a class="fn org url" href="http://microformats.org">
+            microformats community
+        </a>.
+    </address>
+
+	<ul>
+    				<li id="about"><a href="/wiki/Microformats_Wiki:About" title="Microformats Wiki:About">About Microformats Wiki</a></li>
+				<li id="disclaimer"><a href="/wiki/Microformats_Wiki:General_disclaimer" title="Microformats Wiki:General disclaimer">Disclaimers</a></li>
+        <li>Powered by <a href="http://mediawiki.org">MediaWiki</a> | <a href="http://mediatemple.net/">(mt) media temple</a></li>
+	</ul>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.253 secs. --><script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+_uacct = "UA-1889385-1";
+urchinTracker();
+</script>
+
+
+</body></html>
