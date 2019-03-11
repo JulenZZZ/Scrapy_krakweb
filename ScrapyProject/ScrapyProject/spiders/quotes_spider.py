@@ -14,9 +14,9 @@ class QuotesSpider(scrapy.Spider):
             
         
         def parse(self, response):
-            for quote in response.css('div.item_wrap'):
+             for response in response.xpath("//div[@class='item_wrap']"):
                 yield {
-                   'Title': quote.css('div.item_wrap2 a.item div.bd div.info p.title notranslate::text').get(),
+                   'Title': response.xpath("//p[@class='title notranslate']").get(),
                     #'author': quote.css('small.author::text').get(),
                     #'tags': quote.css('div.tags a.tag::text').getall(),
                     
